@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.heading-container {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.heading-container h1 {
+    padding-top: 30vh;
+    font-size: 5.625rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.heading-container p {
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: normal;
+}
+
+.social {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.social i {
+    color: white;
+    font-size: 2rem;
+}
+
+
+.about {
+    background-color: #222831;
+    color: #DDDDDD;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+
+.about h1 {
+    color: white;
+}
+
+.about h3 {
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+.skills {
+    margin-top: 5vh;
+}
+
+.hobbies {
+    margin-top: 5vh;
+}
+
+.skills div {
+    text-align: left;
+}
+
+.skills .sk-level {
+    text-align: right;
+}
+
+.skills .row {
+    padding: 10px 0 10px 0;
+}
+
+.hobbies div {
+    text-align: right;
+}
+
+.hobbies .love-level {
+    text-align: left;
+}
+
+.hobbies .row {
+    padding: 10px 0 10px 0;
+}
+
+.description {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.25rem;
+}
+
+.section-title {
+    color: #F05454;
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+}
+
+.section-title h1 {
+    font-weight: bold;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.contact {
+    background-color: #222831;
+    color: #DDDDDD;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.contact h1 {
+    color: white;
+}
+
+.resume {
+    color: #222831;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.resume h1 {
+    color: #222831;
+}
+
+.resume h2 {
+    font-weight: bold;
+    color: #F05454;
+    margin-bottom: 5vh;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, .8);
+}
+
+.resume h4 {
+    font-weight: bold;
+}
+
+.resume h5 {
+    color: #787A91
+}
+
+.resume p {
+    color: #787A91
+}
+
+.projects {
+    background-color: #222831;
+    color: #DDDDDD;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.projects h1 {
+    color: white;
+}
+
+.lifts {
+    color: #222831;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.lifts h1 {
+    color: #222831;
+}
+
+.lifts h5 {
+    color: #787A91;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h5 {
+    color: #DDDDDD;
+}
+
+.contact-info h3 {
+    color: #F05454;
+    font-weight: bold;
+}
+
+.contact i {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.resume .row {
+    position: relative;
+    margin-bottom: 4vh;
+}
+
+.resume-block {
+    margin-bottom: 4vh;
+    position: relative;
+}
+
+.resume-block::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 35%;
+    top: 0;
+}
+
+.resume-icon {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    background: #313131;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 35%;
+    top: .9rem;
+    margin-left: -1.5rem;
+}
+
+.resume-left {
+    float: left;
+    width: 35%;
+    padding-right: 90px;
+    text-align: right;
+}
+
+.resume-right {
+    float: right;
+    width: 65%;
+    padding-left: 90px;
+    text-align: left;
+}
+
+.lifts .row {
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.lifts i {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.lifts h3 {
+    color: #F05454;
+    font-weight: bold;
+}
+
+.lifts p {
+    font-weight: bold;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3EDBF0;
+}
+
+.container-fluid a:hover {
+    color: #77ACF1;
+}
+
+.lifts hr {
+    background-color: transparent;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+.lifts h4 {
+    font-weight: bold;
+}
+
+.project {
+}
+
+.project .description {
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.projects .description h4 {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .project {
+        margin-top: 5vh;
+    }
+
+    .about {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .resume {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .resume-block::before {
+        left: 10%;
+    }
+    
+    .resume-icon {
+        left: 10%;
+        margin-left: -0.75rem;
+    }
+    
+    .resume-left {
+        float: right;
+        width: 80%;
+        padding-left: 20%;
+        text-align: left;
+    }
+    
+    .resume-right {
+        float: right;
+        width: 80%;
+        padding-left: 20%;
+        text-align: left;
+    }
+}
